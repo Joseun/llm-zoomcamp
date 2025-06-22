@@ -1,5 +1,4 @@
-# LLM Zoomcamp - RAG Demo
-
+# LLM Zoomcamp
 This project demonstrates a Retrieval-Augmented Generation (RAG) pipeline using LLMs, Elasticsearch, Qdrant, and embedding models. It is based on the [DataTalksClub LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) course.
 
 ## Features
