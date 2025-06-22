@@ -3,3 +3,4 @@ tiktoken
 groq
 elasticsearch
 tqdm
+qdrant-client[fastembed]
