@@ -4,3 +4,4 @@ groq
 elasticsearch
 tqdm
 qdrant-client[fastembed]
+fastmcp

@@ -1,4 +1,5 @@
 # LLM Zoomcamp
+
 This project demonstrates a Retrieval-Augmented Generation (RAG) pipeline using LLMs, Elasticsearch, Qdrant, and embedding models. It is based on the [DataTalksClub LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) course.
 
 ## Features
@@ -71,6 +72,9 @@ rag(query, "machine-learning-zoomcamp", 3, 3)
 ├── requirements.txt
 ├── rag-intro.ipynb
 ├── vector-search.ipynb
+├── client.py
+├── weather_service.py
+├── weather_server.py
 └── qdrant_storage/
 ```
 
