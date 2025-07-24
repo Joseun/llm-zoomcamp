@@ -11,6 +11,8 @@ This project demonstrates a Retrieval-Augmented Generation (RAG) pipeline using 
 - Calls Llama-3.3-70B-Versatile via Groq API for answers
 - Calculates token usage and cost for each query
 - Example notebooks for both Elasticsearch and Qdrant vector search
+- Weather service demo with client and server
+- Evaluation notebook for search and RAG metrics
 
 ## Requirements
 
@@ -49,11 +51,13 @@ API-KEY=your_groq_api_key_here
 
 - [rag-intro.ipynb](rag-intro.ipynb): RAG pipeline with Elasticsearch and Groq LLM
 - [vector-search.ipynb](vector-search.ipynb): Vector search with Qdrant and fastembed
+- [evaluation.ipynb](evaluation.ipynb): Search and RAG evaluation metrics
 
 The notebooks will:
 - Download and index FAQ documents
 - Run search and RAG queries
 - Show example prompts, answers, and cost calculations
+- Evaluate search and RAG performance
 
 ## Example Query
 
@@ -72,6 +76,7 @@ rag(query, "machine-learning-zoomcamp", 3, 3)
 ├── requirements.txt
 ├── rag-intro.ipynb
 ├── vector-search.ipynb
+├── evaluation.ipynb
 ├── client.py
 ├── weather_service.py
 ├── weather_server.py

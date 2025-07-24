@@ -5,3 +5,5 @@ elasticsearch
 tqdm
 qdrant-client[fastembed]
 fastmcp
+minsearch
+rouge
